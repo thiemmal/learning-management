@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 2020_08_19_083023) do
     t.string "subject", null: false
     t.text "content"
     t.string "image"
+    t.integer "study_time"
     t.datetime "start_time"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
