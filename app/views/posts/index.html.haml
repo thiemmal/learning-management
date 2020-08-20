@@ -1,2 +1,4 @@
-= month_calendar do |date|
+= month_calendar events: @posts do |date,posts|
   = date.day
+  - posts.each do |post|
+    = post.subject
