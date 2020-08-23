@@ -1,3 +1,7 @@
+.Container{
+  height: 100vh;
+  display: flex;
+}
 .Main{
   width: 70%;
   height: 100vh;
@@ -59,3 +63,33 @@
     }
   }
 }
+
+.Follower{
+  height: 100%;
+  width: 30%;
+  background-color: aliceblue;
+  .Follower__list{
+    height: 130px;
+    position: relative;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    border: gray solid 1px;
+    overflow: scroll;
+    .Follower__list__name{
+      font-size: 30px;
+    }
+    .Follower__list__subject{
+      font-size: 20px;
+    }
+    .Follower__list__time{
+      font-size: 20px;
+    }
+    .Follower__list__btn{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height:100%;
+      width: 100%;
+    }
+  }
+} 
