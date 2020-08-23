@@ -1,0 +1,48 @@
+.Main{
+  width: 70%;
+  height: 100vh;
+  .Main__target{
+    height: 30%;
+    overflow: scroll;
+    border: black solid 1px;
+    .Main__target__week{
+      font-size: 40px;
+      text-align: center;
+      color: brown;
+      border-bottom: black solid 1px;
+    }
+    .Main__target__display{
+      font-size: 40px;
+      padding-left: 15px;
+    }
+    .Main__target__btn{
+      text-decoration: none;
+      padding-left: 15px;
+    }
+  }
+
+  .Main__calendar{
+    height: 20%;
+    .Main__calendar__btn{
+      font-size: 30px;
+      color: cadetblue;
+      text-decoration: none;
+
+    }
+  }
+
+  .Main__week-time{
+    height: 15%;
+    border: black solid 1px;
+    .Main__week-time__word{
+      font-size: 35px;
+      text-align: center;
+      border-bottom: black solid 1px;
+      color: brown;
+    }
+    .Main__week-time__display{
+      font-size: 40px;
+      padding-left: 15px;
+    }
+  }
+}
