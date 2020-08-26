@@ -1,0 +1,28 @@
+.Header{
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  background-color: #333333;
+  align-items: center;
+  .Header__app-name{
+    margin-left: 20px;
+    font-size: 25px;
+    color: white;
+  }
+  .Header__user{
+    display: flex;
+    margin-right: 20px;
+    .Header__user__name{
+      color: white;
+      font-size: 20px;
+      margin-right: 15px;
+    }
+    .Header__user__edit i{
+      color: white;
+      font-size: 20px;
+      margin-top: 5px;
+    }
+  }
+
+}
