@@ -12,7 +12,7 @@
       =link_to '目標設定をする！', '#', class: "Main__target__btn"
 
     .Main__calendar
-      =link_to '学習カレンダーへ', '#', class: "Main__calendar__btn"
+      =link_to '学習カレンダーへ', user_posts_path(current_user), class: "Main__calendar__btn"
       .Main__calendar__image
         =icon("far", "calendar-check")
       
