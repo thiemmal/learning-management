@@ -4,7 +4,7 @@ class CreatePosts < ActiveRecord::Migration[6.0]
       t.string :subject, null: false
       t.text :content
       t.string :image
-      t.integer :study_time
+      t.integer :study_time, null: false
       t.datetime :start_time
 
       t.timestamps
